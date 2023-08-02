@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+    <div class="container-fluid">
+            <div class="btn-group w-100 mb-2">
+                <button type="button  " class="btn btn-primary "> HOME </button>
+                <button type="button "class="btn   btn-primary "> GALLERY </button>
+                <button type="button"class="btn    btn-primary "> CONTACT</button>
+                <button type="button"class="btn    btn-primary "> MY FAMILY</button>
+                <button type="button"class="btn    btn-primary "> SCHOOL</button>
+            </div>
+            <div id="demo" class="carousel slide w-100" data-ride="carousel">
+
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner text-justify" style="height: 700px;">
+                <div class="carousel-item active">
+                  <img src="images.jpg" alt="Los Angeles" width="100%" height="100%">
+                </div>
+                <div class="carousel-item">
+                  <img src="sunset.jpg" alt="Chicago" width="100%" height="100%">
+                </div>
+                <div class="carousel-item">
+                  <img src="peacock.jpg" alt="New York" width="100%" height="100%">
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+              <br>
+              <br>
+              <div class="container-fluid p-5">
+                <h1 class="family   border-bottom">About Me</h1>
+                <br>
+                <br>
+                <p class="text-justify">I am a 13-year-old and I live with my parents in Ghaziabad, Uttar Pradesh. 
+                  I’m a single child of my parents. I study in class 8th at Sant Mary Convent
+                   School. My father is Mr. Alok Nath and he is a reputed doctor. My mother 
+                    Mrs. Jyoti Nath and she is also a doctor. I am an adventurous person who
+                     likes to take on challenges. My hobby is dancing. I also go to a dancing
+                      class after school. My parents are my biggest strength. They always 
+                      support me and guide me to take important decisions in life.
+
+                  There have been a number of experiments and achievements in my life. 
+                  I always participate in school activities. After my studies, I want to 
+                  become a doctor like my parents. However, I already started preparing 
+                  for different competitive exams.
+                  
+                  I’m very punctual and attentive in life. I never get late for school.
+                   I always prefer to do my work on time. I'm very good at managing my 
+                   time and maintaining discipline in my life. As much as I can, I always 
+                   try to help others and solve their problems to the best of my ability.
+                    Whenever they need support and assistance, I give them advice and suggestions
+                     when they ask for it.
+                  
+                  </p>
+                  <br>
+              </div>
+            </div>
+            
+    </div>
+    
+    <div class="container-fluid" id="gallery">
+      <h1 class="family   border-bottom">Gallery </h1>
+      <br>
+      <br>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row mb-1">
+        <div class="col-md-4 col-lg-4 col-sx-12 col-sm-12 w-100">
+          <img src="sunset.jpg" class="w-100"  alt="sunset">
+        </div>
+        <div class="col-md-4 col-lg-4 col-sx-12 col-sm-12 w-100">
+          <img src="images.jpg" class="w-100"  alt="sunset">
+        </div>
+        <div class="col-md-4 col-lg-4 col-sx-12 col-sm-12 w-100">
+          <img src="peacock.jpg" class="w-100"  alt="sunset">
+        </div>
+        </div>  
+
+
+        <div class="row mb-1">
+          <div class="col w-100 m-1">
+            <img src="sunset.jpg" class="w-100"  alt="sunset">
+          </div>
+          <div class="col w-100 m-1">
+            <img src="images.jpg" class="w-100"  alt="sunset">
+          </div>
+          <div class="col w-100 m-1">
+            <img src="peacock.jpg" class="w-100"  alt="sunset">
+          </div>
+          </div> 
+          <div class="row mb-1">
+            <div class="col w-100 m-1">
+              <img src="sunset.jpg" class="w-100"  alt="sunset">
+            </div>
+            <div class="col w-100 m-1">
+              <img src="images.jpg" class="w-100"  alt="sunset">
+            </div>
+            <div class="col w-100 m-1">
+              <img src="peacock.jpg" class="w-100"  alt="sunset">
+            </div>
+            </div> 
+    </div>
+ 
+    <div class="container-fluid p-5">
+      <h1 class="family border-bottom mb-5">Contact </h1>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="pwd"> Subject:</label>
+        <input type="subject" class="form-control" id="pwd" placeholder="Enter subject" name="pswd">
+      </div>
+
+      <div class="form-group">
+        <label for="pwd"> Message:</label>
+        <input type="message" class="form-control" id="pwd" placeholder="Enter message" name="pswd">
+      </div>
+
+      <button type="button" class="btn btn-primary btn-lg mt-5">send</button>
+
+      <h1 class="family border-bottom mt-5">My Family</h1>
+
+      <div class="row mb-3">
+        <div class="col col-sm-3"> <img src="download.jpg" class="w-100" alt="download"></div>
+        <div class="col col-sm-9">  <p class="text-justify">Family is the most important part of anyone’s 
+          life. It does not matter if you live in a big or
+           a small family, you just have to have one. My 
+           name is Jiya Mehta. I live in a big wonderful 
+           family consisting of 8 members. I live with my 
+           mother, father, my twin sister, my grandmother
+            and grandfather and my uncle and my aunt.A family  
+             is a group of people who are related by blood or
+              heritage. These people are linked not only by
+               blood but also by compassion, love, and support
+               . A person's character and personality are shaped 
+               by his or her family. There are various forms
+                of families in today's society.</p></div>
+      </div>
+      <div class="row mb-3">
+        <div class="col col-sm-3"> <img src="download.jpg" class="w-100" alt="download"></div>
+        <div class="col col-sm-9">  <p class="text-justify">Family is the most important part of anyone’s 
+          life. It does not matter if you live in a big or
+           a small family, you just have to have one. My 
+           name is Jiya Mehta. I live in a big wonderful 
+           family consisting of 8 members. I live with my 
+           mother, father, my twin sister, my grandmother
+            and grandfather and my uncle and my aunt.A family  
+             is a group of people who are related by blood or
+              heritage. These people are linked not only by
+               blood but also by compassion, love, and support
+               . A person's character and personality are shaped 
+               by his or her family. There are various forms
+                of families in today's society.</p></div>
+      </div>
+      <div class="row mb-3">
+        <div class="col col-sm-3"> <img src="download.jpg" class="w-100" alt="download"></div>
+        <div class="col col-sm-9">  <p class="text-justify">Family is the most important part of anyone’s 
+          life. It does not matter if you live in a big or
+           a small family, you just have to have one. My 
+           name is Jiya Mehta. I live in a big wonderful 
+           family consisting of 8 members. I live with my 
+           mother, father, my twin sister, my grandmother
+            and grandfather and my uncle and my aunt.A family  
+             is a group of people who are related by blood or
+              heritage. These people are linked not only by
+               blood but also by compassion, love, and support
+               . A person's character and personality are shaped 
+               by his or her family. There are various forms
+                of families in today's society.</p></div>
+      </div>
+ 
+      </div>
+      
+    </div>
+
+    
+    
+    
+ 
+    
+    <div class="container-fluid px-3"> 
+      <h1 class="family   border-bottom">About School</h1>
+      <br>
+      <br>
+      <p class="text-justify">More people in the world today are educated than ever before. In 1820 only 
+        12% of the people in the world could read and write. Today the share is
+         reversed: only 17% of the world’s population remains illiterate. Primary school
+          enrollment is now almost universal in most countries, with as many girls enrolling as boys.
+
+        Nevertheless, these figures overshadow the impact of persistent inequity.
+         Some 63 million children of primary school age were out of school in 2016 and 
+         progress on primary school enrollment remains flat. Most impacted are the world’s
+          poorest countries, where the lack of basic education is a hard constraint on development.
+           In Niger, for example, just 36.5% of 15- to 20-year-olds are literate.
+        
+        Classroom in rural India
+        A small village private school in Dasdoi, Uttar Pradesh, India
+        Oxfam caught the world’s attention in 2014 with the astounding statistic that 
+         85 individuals had the same wealth as the 3.8 billion people who make up the
+         poorest half of the world’s population. Three years later the number was down to
+          43, and in 2018 to just 26. In their annual report to the 2019 World Economic Forum'
+           in Davos, Public Good or Private Wealth, Oxfam takes a strong, unequivocal position:
+            this spiraling inequity must be checked, and the way to do it is for all governments
+             to provide universal health care, education and social protection, free at the point
+              of delivery, funded by fair taxation of rich individuals and corporations. Governments
+              , says Oxfam, must “Stop supporting privatization of public services.”
+        
+        “For some time, the view of institutions like the World Bank was that public services should
+         be rationed and minimal, and that the private sector is often a better provider. It was argued 
+         that individuals should pay for their schools and hospitals, market mechanisms should be used to
+          organize services, and that social protection should be very limited and targeted only at the very
+        
+        
+        </p>
+    </div>
+    <br>
+    <br>  
+    <br>
+  
+      <h1 class="family   border-bottom">Friends</h1>
+      <br>
+      <br>
+
+      <div class="row mb-3 ">
+        <div class="col col-sm-3  p-5 " > <img src="kunal.jpg" class="w-100" alt="kunal"></div>
+        <div class="col col-sm-9 p-5 ">
+     
+    
+        <p class="text-justify">You meet many along the way of life but only some stay
+           with you forever. Those are your real friends who 
+            by your side through thick and thin. Friendship is the
+             most beautiful gift you can present to anyone. It is one
+              which stays with a person forever.    True Friendship
+          A person is acquainted with many persons in their life. 
+          However, the closest ones become our friends. You may have
+           a large friend circle in school or college, but you know 
+           you can only count on one or two people with whom you share true friendship.
+           Friendship is the
+           most beautiful gift you can present to anyone. It is one
+            which stays with a person forever.    True Friendship
+            A person is acquainted with many persons in their life. 
+            However, the closest ones become our friends. You may have
+             a large friend circle in school or college, but you kno Friendship is the
+             most beautiful gift you can present to anyone. It is one
+              which stays with a person forever.    True Friendship
+              A person is acquainted with many persons in their life. 
+              However, the closest ones become our friends. You may have
+               a large friend circle in school or college, but you kno
+          There are essentially two types of friends, one is good friends
+           the other are true friends or best friends. They’re the ones with 
+           whom we have a special bond of love and affection. In other words,
+            having a true friend makes our lives easier and full of happiness.</p>
+          </div>
+        </div>
+      
+    
+    <div class="row ">
+      <div class="col col-sm-3 p-5"> <img src="jatin.jpg" class="w-100    " alt="jatin"></div>
+      <div class="col col-sm-9  p-5"> 
+   
+  
+      <p class="text-justify ">You meet many along the way of life but only some stay
+         with you forever. Those are your real friends who 
+          by your side through thick and thin. Friendship is the
+           most beautiful gift you can present to anyone. It is one
+            which stays with a person forever.    True Friendship
+            A person is acquainted with many persons in their life. 
+            However, the closest ones become our friends. You may have
+             a large friend circle in school or college, but you know 
+             you can only count on one or two people with whom you share true friendship.
+             A person is acquainted with many persons in their life. 
+             However, the closest ones become our friends. You may have
+              a large friend circle in school or college, but you know 
+              you can only count on one or two people with whom you share true friendship.
+              A person is acquainted with many persons in their life. 
+              However, the closest ones become our friends. You may have
+               a large friend circle in school or college, but you know 
+               you can only count on one or two people with whom you share true friendship.
+                       
+        There are essentially two types of friends, one is good friends
+         the other are true friends or best friends. They’re the ones with 
+         whom we have a special bond of love and affection. In other words,
+          having a true friend makes our lives easier and full of happiness.</p>
+        </div>
+      </div>
+      
+    </div>
+    <br>
+    <br>  
+    <br>
+    <div class="row mb-3">
+      <div class="col col-sm-3  p-5"> <img src="jatin2.jpg" class="w-100" alt="jatin2"></div>
+      <div class="col col-sm-9  p-5"> 
+   
+  
+      <p class="text-justify">You meet many along the way of life but only some stay
+         with you forever. Those are your real friends who 
+          by your side through thick and thin. Friendship is the
+           most beautiful gift you can present to anyone. It is one
+            which stays with a person forever.    True Friendship
+        A person is acquainted with many persons in their life. 
+        However, the closest ones become our friends. You may have
+         a large friend circle in school or college, but you know 
+         you can only count on one or two people with whom you share true friendship.
+        
+         There are essentially two types of friends, one is good friends
+         the other are true friends or best friends. They’re the ones with 
+         whom we have a special bond of love and affection. In other words,
+          having a true friend makes our lives easier and full of happiness
+           There are essentially two types of friends, one is good friends
+          the other are true friends or best friends. They’re the ones with 
+          whom we have a special bond of love and affection. In other words,
+           having a true friend makes our lives easier and full of happiness 
+           There are essentially two types of friends, one is good friends
+           the other are true friends or best friends. They’re the ones with 
+           whom we have a special bond of love and affection. In other words,
+            having a true friend makes our lives easier and full of happiness.</p>
+        </div>
+      </div>
+      
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
